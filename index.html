@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="js/navbar.js"></script>
+
+    <!-- <link rel="stylesheet" href="css/navbar.css"> -->
+  
+    <style>
+        body{
+            background-color: #FFDAC1;
+        }
+        h1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            /* text-align: left; */
+            font-size: 60px;
+            margin-left: 150px;
+            margin-top: 150px;
+        }
+        .navigationbar{
+            background-color: #FFDAC1;
+            padding: 20px;
+        }
+        .navbarwords{
+            color:black;
+            text-align: left;
+        }
+        button {
+          margin-left: 150px;
+          background-color: white;
+          width: 200px;
+        }
+        section{
+          display: flex;
+          flex-direction: column;
+          /* align-items: center; */
+          /* justify-content: center; */
+          width: 100%;
+          height: 100vh;
+        }
+
+        #about{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 100vh;        }
+    </style>
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg navigationbar"> 
+         <div class="container-fluid"> 
+           <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+             <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> 
+               <li class="nav-item"> 
+                 <a class="nav-link navbarwords" aria-current="page" href="index.html">Home</a> 
+               </li> 
+               <li class="nav-item"> 
+                <a class="nav-link navbarwords" aria-current="page" href="jobexp.html">Job Experiences</a> 
+              </li> 
+               <li class="nav-item"> 
+                <a class="nav-link navbarwords" href="projects.html">Projects</a> 
+              </li>
+              <li class="nav-item"> 
+                <a class="nav-link navbarwords" href="cert&awards.html">Certifications & Awards</a> 
+              </li> 
+              <li class="nav-item"> 
+                 <a class="nav-link navbarwords" href="hobbies.html">Hobbies</a> 
+               </li> 
+             </ul> 
+           </div> 
+         </div> 
+       </nav> 
+       <!-- BS navbar: start --> 
+    <section id="welcome">
+      <h1>Hello <br>& Welcome</h1>
+      <button>Find Out More About Me</button>
+    </section>
+    <section id="about">
+      <p>hello there!</p>
+    </section>
+</body>
+</html>
